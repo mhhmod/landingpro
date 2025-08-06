@@ -1,4 +1,3 @@
-// جلب بيانات الـ IP عبر خدمة ipapi.co
 fetch("https://ipapi.co/json/")
   .then(response => response.json())
   .then(data => {
